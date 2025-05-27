@@ -1,0 +1,152 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: beige;
+}
+.navbar{
+    height: 70px;
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar a{
+    text-decoration: none;
+    color: #24582a;
+}
+.hero{
+    height: 700px;
+    width: 100%;
+    background-image: url("earth-img.png");
+    background-size: cover;
+     display:flex;
+    color: #fffaf1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.t1{
+    font-size: 106px;
+    font-family:  serif;
+}
+.t2{
+    margin-left: 200px;
+    font-size: 20px;
+}
+.hero button{
+     height: 50px;
+    width: 154px;
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: none;
+    color: #fffaf1;
+    margin-left: 300px;
+    margin-top: 50px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #24582a;
+}
+
+.border{
+ border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid burlywood ;
+}
+.box2{
+    height: 1013px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box2-1{
+    height: 853px;
+    width: 538px;
+    margin-left: 50px;
+    color: #24582a;
+}
+.box2-1 h1{
+font-size: 79px;
+text-transform: capitalize;
+font-family: serif;
+
+}
+.box2-1 p{
+font-size: 18px;
+text-transform: capitalize;
+font-family: serif;
+margin-top: 20px;
+
+}
+.box2-1 img{
+height: 312px;
+width: 475px;
+margin-top: 50px;
+}
+.box2-2{
+    background-image:url(third-img.avif) ;
+    width: 560px;
+    height: 885px;
+    background-size: cover;
+    
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+.contact {
+
+    height: 200px;
+    width: 100%;
+    background-color: #f5f5dc;
+    display: flex;
+    color: #1c1a16;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 'Courier New', Courier, monospace;
+    position: relative ;
+    bottom: 2px;
+    border-top: 2px solid black;
+} 
+
+.blog{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #24582a;
+    height: 500px;
+    width: 1450px;
+    margin: 25px;
+    text-align: left;
+    /* border-bottom: 2px solid black; */
+}
+
+.blog h1{
+    font-family: serif;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.contact img{
+    height : 50px;
+    width: 50px;
+    
+}
+
+.aboutus{
+    color: #24582a;
+    font-size: 25px;
+    margin-bottom: 50px;
+     margin-left: 25px;
+     text-align: center;
+}
+
+.aboutus p{
+    margin-top: 25px;
+}
